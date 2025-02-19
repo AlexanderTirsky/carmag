@@ -82,5 +82,35 @@
     &__img {
         margin-right: 20px;
     }
+};
+
+
+@media (max-width: 790px) {
+    .contact {
+        flex-direction: column;
+        height: auto;
+
+
+        &__title {
+            width: 260px;
+            margin-left: 0;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 13px;
+        }
+
+        &__us {
+            margin-top: 20px
+        }
+    }
+};
+
+
+.valid {
+    border: 2px solid green;
 }
 
+.invalid {
+    border: 2px solid red;
+}

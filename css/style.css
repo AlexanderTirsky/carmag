@@ -78,4 +78,29 @@
 }
 .list__img {
   margin-right: 20px;
+}
+
+@media (max-width: 790px) {
+  .contact {
+    flex-direction: column;
+    height: auto;
+  }
+  .contact__title {
+    width: 260px;
+    margin-left: 0;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  .contact__us {
+    margin-top: 20px;
+  }
+}
+.valid {
+  border: 2px solid green;
+}
+
+.invalid {
+  border: 2px solid red;
 }/*# sourceMappingURL=style.css.map */

@@ -10,10 +10,13 @@ function formValid() {
     if (!regex.test(phoneNumber.value)) {
         error = true;
         errorMsg = "Номер не верный";
+        phoneNumber.style.border = '2px solid red';
+
     };
 
     if (!error) {
         alert("Данные отправлены");
+        phoneNumber.style.border = '2px solid green';
     }
     else {
         alert(errorMsg);
@@ -23,4 +26,5 @@ function formValid() {
 formSupport.addEventListener("submit", formValid);
 
 console.log(formSupport);
+
 
